@@ -1,9 +1,9 @@
-.places__place__website{
+.place-website{
   align-self: end;
 }
 
 @media screen and (max-width: 425px){
-  .places__place__website{
+  .place-website{
     display: none;
   }  
 }
