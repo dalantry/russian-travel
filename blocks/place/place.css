@@ -1,4 +1,4 @@
-.places__place {
+.place {
   color: white;
   display: grid;
   margin: 0 auto;
@@ -12,21 +12,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .places__place {
+  .place {
     margin-left: 48px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
-    .places__place {
+    .place {
       margin-left: 24px;
       max-width: 720px;
     }
   }
 
 @media screen and (max-width: 425px) {
-    .places__place {
+    .place {
       display: flex;
       flex-direction: column;  
       margin: 0;
