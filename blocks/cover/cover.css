@@ -1,0 +1,15 @@
+.cover{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    color: white;
+    width: 92.5%;
+    margin: auto;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px){
+    .cover{
+        width: 100%;
+    }
+}

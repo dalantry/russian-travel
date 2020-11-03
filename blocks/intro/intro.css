@@ -1,0 +1,15 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 54%;
+    padding-top: 79px;
+    padding-left: 148px;
+}
+
+@media screen and (max-width: 1024px){
+    .intro{
+        padding-left: 48px;
+        width: 67.3%
+    }
+}

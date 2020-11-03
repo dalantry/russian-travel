@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 92.5%;
+    margin: auto;
+    padding-top: 28px;
+}
+
+@media screen and (min-width: 1024px){
+    .header{
+        width: 90.6%;
+    }
+}

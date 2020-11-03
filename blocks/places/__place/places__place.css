@@ -1,0 +1,19 @@
+.places__place {
+  color: white;
+  display: grid;
+  margin: 0 auto;
+  max-width: 984px;
+  grid-template-columns: 47% 49%;
+  grid-template-rows: min-content auto;
+  margin-bottom: 80px;
+  row-gap: 48px;
+  column-gap: 40px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    margin-left: 48px;
+    max-width: 928px;
+  }
+}
