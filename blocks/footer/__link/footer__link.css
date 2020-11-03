@@ -2,9 +2,25 @@
   color: white;
   text-decoration: none;
   padding-right: 18px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    gap: 32px;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: repeat (auto, 1fr);
+  }
+
+  .footer__link:last-child {
+    
+    padding-bottom: 48px;
+  }
 }

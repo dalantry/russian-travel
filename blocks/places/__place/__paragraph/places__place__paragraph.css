@@ -7,3 +7,8 @@
   padding-bottom: 26px;
   margin: 0;
 }
+@media screen and (min-width: 768px) {
+  .places__place__paragraph {
+    font-size: 16px;
+  }
+}

@@ -7,12 +7,27 @@
     justify-self: center;
     align-self: center;
     z-index: 1;
-    background-color: rgba(0, 50, 50, 0.5);
+    background-color: rgba(0, 50, 50,);
     text-align: center;
 }
-
+.cover__text:hover ~ .cover__overlay{
+    opacity: 0.8;
+    transition: all 1s ease 0s;
+}
 @media screen and (max-width: 1024px){
     .cover__text{
         width: 54.7%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__text{
+        width: 73%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cover__text{
+        width: 90%;
     }
 }

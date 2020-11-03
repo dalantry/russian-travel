@@ -1,5 +1,5 @@
 .lead__image{
-  max-width: 984px;
+  width: 100%;
   padding-top: 64px;
   margin: auto;
 }
@@ -8,5 +8,11 @@
   .lead__image{
     padding-top: 56px;
     max-width: 928px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .lead__image{
+    width: 100%;
   }
 }

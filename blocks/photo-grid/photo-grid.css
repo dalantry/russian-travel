@@ -11,6 +11,24 @@
     .photo-grid{
         width: 90.6%;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr); 
+        grid-template-rows: repeat(auto, 1fr); 
+    }
+}
+
+@media screen and (max-width: 768px){
+    .photo-grid{
+        width: 93.7%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr); 
+        padding: 88px  24px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .photo-grid{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr); 
+        padding: 64px  16px;
     }
 }
