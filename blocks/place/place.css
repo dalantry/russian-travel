@@ -31,30 +31,19 @@
   .place:last-child {
     padding-bottom: 90px;
   }
-}
 
-<<<<<<< HEAD
-@media screen and (max-width: 450px) {
-  .place {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    row-gap: 32px;
-    padding-bottom: 49px;
-  }
-
-  .place:last-child {
-    padding-bottom: 66px;
-  }
-}
-=======
-@media screen and (max-width: 500px) {
+  @media screen and (max-width: 450px) {
     .place {
       display: flex;
       flex-direction: column;
       margin: 0 auto;
-      max-width: 320px;
+      width: 100%;
+      row-gap: 32px;
+      padding-bottom: 49px;
+    }
+  
+    .place:last-child {
+      padding-bottom: 66px;
+    }
   }
-} 
->>>>>>> d768a58e7fcdd6a454c104ef4da53d21e775dd31
+  
