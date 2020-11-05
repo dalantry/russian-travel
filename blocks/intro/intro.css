@@ -33,14 +33,3 @@
         padding-top: 64px;
     }
 }
-
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 1280px){
-    .intro{
-      margin: 0 auto;
-      padding-left: 0;
-      max-width: 1280px;
-    }
-  }
->>>>>>> d768a58e7fcdd6a454c104ef4da53d21e775dd31
