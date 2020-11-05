@@ -1,0 +1,46 @@
+.intro{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 690px;
+    padding-top: 79px;
+    padding-left: 148px;
+}
+
+@media screen and (max-width: 1024px){
+    .intro{
+        padding-left: 48px;
+        width: 67.3%;
+        margin: 0%;
+        padding-right: 0;
+        padding-top: 92px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro{
+        padding-left: 24px;
+        width: 93.7%;
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .intro{
+        padding-left: 16px;
+        width: 90%;
+        padding-top: 64px;
+    }
+}
+
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 1280px){
+    .intro{
+      margin: 0 auto;
+      padding-left: 0;
+      max-width: 1280px;
+    }
+  }
+>>>>>>> d768a58e7fcdd6a454c104ef4da53d21e775dd31

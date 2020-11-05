@@ -1,0 +1,13 @@
+.cover__link{
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../images/sprint-3-images/cover-trains.jpg);
+    color: white;
+    text-decoration: none;
+}
+
+.cover__link:visited{
+    color: white;
+    text-decoration: none;
+}
