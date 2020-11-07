@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place {
     width: 93.8%;
     grid-template-columns: 44% 52%;
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .place {
     display: flex;
     flex-direction: column;
